@@ -6,5 +6,5 @@ Create a bind so that CTRL left/right [cursor key] moves to the next and previou
 ## File
 .local/share/omarchy/default/hypr/binding/tiling.conf
 ## Additions
-bindd = CTRL, left, Switch to workspace, workspace, -1
+bindd = CTRL, left, Switch to workspace, workspace, -1<br />
 bindd = CTRL, right, Switch to workspace, workspace, +1
