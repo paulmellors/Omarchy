@@ -9,4 +9,5 @@ nano ~/.config/hypr/bindings.lua
 
 # Moving using CTRL and Left/Right Cursor Keys
 o.bind("CTRL + RIGHT", "Next workspace", hl.dsp.focus({ workspace = "e+1" }))
+
 o.bind("CTRL + LEFT", "Previous workspace", hl.dsp.focus({ workspace = "e-1" }))
